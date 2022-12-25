@@ -14,4 +14,4 @@ namespace Entities.DTOs
         public int DailyPrice { get; set; }
 
     }
-}
+}   

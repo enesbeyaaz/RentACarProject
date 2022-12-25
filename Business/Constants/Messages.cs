@@ -2,6 +2,7 @@
 using Entities.Constrete;
 using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -31,5 +32,13 @@ namespace Business.Constants
         public static string SuccessfulLogin = "Sisteme giriş başarılı";
         public static string UserAlreadyExist="Kullanıcı Mevcut";
         public static string AccessTokenCreated="Access Token Oluşturuldu";
+
+        public static string AuthorizationDenied = "Yetkiniz yok!";
+
+        public static string BrandAdded = "Model Eklendi";
+        public static string BrandDeleted = "Model Silindi";
+        public static string BrandsListed = "Modeller Listelendi";
+        public static string BrandListed = "Model Listelendi";
+        public static string BrandUpdated = "Model Güncellendi";
     }
 }

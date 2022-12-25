@@ -47,7 +47,7 @@ namespace Core.DataAccess
         {
             using (Tcontext context = new Tcontext())
             {
-                return context.Set<TEntity>().SingleOrDefault();
+                return context.Set<TEntity>().SingleOrDefault(filter);
 
 
             }

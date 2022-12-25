@@ -46,7 +46,7 @@ namespace Core.Utilities.Security.JWT
         {
             var jwt = new JwtSecurityToken(
                 issuer:tokenOptions.Issuer,
-                audience:tokenOptions.Audince,
+                audience:tokenOptions.Audience,
                 expires:_accessTokenExpiration,
                 notBefore:DateTime.Now,
                 claims:SetClaims(user,operationClaims),
